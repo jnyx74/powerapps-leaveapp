@@ -780,7 +780,7 @@ HomeScreen As screen:
             PressedBorderColor: =LblEmptyRequests.BorderColor
             PressedColor: =LblEmptyRequests.Color
             PressedFill: =LblEmptyRequests.Fill
-            Text: ="No " & If(_requestTypeFilter <> "All", Lower(_requestTypeFilter)) & " requests"
+            Text: ="NO  requests"
             Visible: =!GalleryRequests.Visible
             Width: =190
             X: =248
