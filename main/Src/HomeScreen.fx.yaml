@@ -131,7 +131,7 @@ HomeScreen As screen:
             Size: =18
             Text: ="LEAVE REQUEST FORM"
             Width: =272
-            X: =140
+            X: =166
             ZIndex: =5
 
         CircleHeaderCreateNew As circle:
@@ -789,6 +789,7 @@ HomeScreen As screen:
 
     "FilterGallery As gallery.'BrowseLayout_Horizontal_TwoTextOneImageVariant_ver4.0'":
         '#CopilotOverlayLabel': ="Filtered"
+        BorderColor: =RGBA(54, 176, 75, 1)
         DisabledBorderColor: =FilterGallery.BorderColor
         DisabledFill: =FilterGallery.Fill
         Height: =46
@@ -842,5 +843,6 @@ HomeScreen As screen:
         Height: =80
         Image: ='N-BASE-corporate-logo_1'
         Width: =124
+        X: =16
         ZIndex: =43
 
