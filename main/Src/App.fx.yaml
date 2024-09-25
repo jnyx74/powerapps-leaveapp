@@ -26,11 +26,11 @@ App As appinfo:
             LeaveTypeCollection, 
                 Table(
                         {
-                            type:"Vacation", 
+                            type:"Annual leave", 
                             icon:vacation,
-                            iconselected:'vacation-selected',
+                            iconselected:'annual-selected',
                             description:
-                            "Vacation leave is provided to all employees for the purpose of rest, relaxation, and to attend to personal affairs. Vacation balance is acquired over time and can be used at any time."
+                            "Annual leave is provided to all employees for the purpose of rest, relaxation, and to attend to personal affairs. Vacation balance is acquired over time and can be used at any time."
                         }
                         ,
                         {

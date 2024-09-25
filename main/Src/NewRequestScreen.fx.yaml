@@ -752,7 +752,7 @@ NewRequestScreen As screen:
                 HoverBorderColor: =ColorFade(NRLeaveTypeButton.BorderColor, 20%)
                 HoverColor: =NRLeaveTypeButton.Color
                 HoverFill: =ColorFade(NRLeaveTypeButton.Fill, 20%)
-                OnSelect: =Select(Parent)
+                OnSelect: =Select( Parent )
                 PaddingBottom: =0
                 PaddingLeft: =0
                 PaddingRight: =0
