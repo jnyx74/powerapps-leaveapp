@@ -193,23 +193,6 @@ NewRequestScreen As screen:
             Width: =1366
             ZIndex: =27
 
-        LblHeaderTItle1_1 As label:
-            Color: =RGBA(255, 255, 255, 1)
-            FocusedBorderColor: =LblHeaderTItle1_1.BorderColor
-            Font: =Font.Lato
-            Height: =80
-            HoverBorderColor: =LblHeaderTItle1_1.BorderColor
-            HoverColor: =LblHeaderTItle1_1.Color
-            HoverFill: =LblHeaderTItle1_1.Fill
-            PressedBorderColor: =LblHeaderTItle1_1.BorderColor
-            PressedColor: =LblHeaderTItle1_1.Color
-            PressedFill: =LblHeaderTItle1_1.Fill
-            Size: =18
-            Text: =Upper("Request")
-            Width: =117
-            X: =30
-            ZIndex: =28
-
         LblHeaderTitle2_1 As label:
             Color: =RGBA(255, 255, 255, 1)
             FocusedBorderColor: =LblHeaderTitle2_1.BorderColor
@@ -221,26 +204,10 @@ NewRequestScreen As screen:
             PressedColor: =LblHeaderTitle2_1.Color
             PressedFill: =LblHeaderTitle2_1.Fill
             Size: =18
-            Text: =Upper("Leave")
-            Width: =138
+            Text: ="LEAVE REQUEST FORM"
+            Width: =276
             X: =178
             ZIndex: =29
-
-        icon2_1 As icon.ArrowRight:
-            Color: =Color.White
-            DisabledFill: =icon2_1.Fill
-            FocusedBorderColor: =icon2_1.BorderColor
-            HoverBorderColor: =ColorFade(icon2_1.BorderColor, 20%)
-            HoverColor: =ColorFade(icon2_1.Color, 20%)
-            HoverFill: =icon2_1.Fill
-            Icon: =Icon.ArrowRight
-            PressedBorderColor: =ColorFade(icon2_1.BorderColor, -20%)
-            PressedColor: =ColorFade(icon2_1.Color, -20%)
-            PressedFill: =icon2_1.Fill
-            Width: =32
-            X: =143
-            Y: =9
-            ZIndex: =30
 
         CircleHeaderCreateNew_6 As circle:
             DisabledFill: =CircleHeaderCreateNew_6.Fill
