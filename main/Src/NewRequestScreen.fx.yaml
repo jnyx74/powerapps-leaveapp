@@ -338,7 +338,9 @@ NewRequestScreen As screen:
         LeaveStartDatePicker As datepicker:
             AccessibleLabel: ="Leave start date. Required field."
             BorderColor: =If(And(!_editingRequest, LeaveStartDatePicker.SelectedDate < Today()) || LeaveStartDatePicker.SelectedDate > LeaveEndDatePicker.SelectedDate, Color.Red, RGBA(99, 139, 44, 1))
+            Color: =RGBA(0, 0, 0, 1)
             DefaultDate: =_leaveStart
+            Fill: =RGBA(0, 0, 0, 0)
             FocusedBorderColor: =LeaveStartDatePicker.BorderColor
             HoverBorderColor: =LeaveStartDatePicker.BorderColor
             HoverFill: =LeaveStartDatePicker.Fill
