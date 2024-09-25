@@ -3766,7 +3766,7 @@
           "RuleProviderType": "Unknown"
         }
       ],
-      "StyleName": "",
+      "StyleName": "defaultRectangleStyle",
       "Type": "ControlInfo"
     },
     "Title5": {
@@ -3998,7 +3998,7 @@
           "RuleProviderType": "Unknown"
         }
       ],
-      "StyleName": "",
+      "StyleName": "defaultLabelStyle",
       "Type": "ControlInfo"
     }
   },
