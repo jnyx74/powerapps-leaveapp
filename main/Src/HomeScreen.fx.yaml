@@ -809,8 +809,8 @@ HomeScreen As screen:
         ZIndex: =42
 
         FilterButton As button:
-            BorderColor: =RGBA(10, 106, 204, 1)
-            Color: =If(_requestTypeFilter=ThisItem.Filter,RGBA(255, 255, 255, 1),RGBA(10, 106, 204, 1))
+            BorderColor: =RGBA(99, 139, 44, 1)
+            Color: =If(_requestTypeFilter=ThisItem.Filter,RGBA(255, 255, 255, 1),RGBA(99, 139, 44, 1))
             DisabledBorderColor: =ColorFade(FilterButton.BorderColor, 70%)
             Fill: =If(_requestTypeFilter=ThisItem.Filter,RGBA(0, 71, 144, 1),RGBA(255, 255, 255, 1))
             FocusedBorderColor: =FilterButton.BorderColor
