@@ -8498,14 +8498,7 @@
       "AllowAccessToGlobals": true,
       "ControlPropertyState": [
         "Overflow",
-        {
-          "AFDDataSourceName": "",
-          "AutoRuleBindingEnabled": false,
-          "AutoRuleBindingString": "\"Vacation\"",
-          "InvariantPropertyName": "Text",
-          "IsLockable": false,
-          "NameMapSourceSchema": "?"
-        },
+        "Text",
         {
           "AFDDataSourceName": "",
           "AutoRuleBindingEnabled": false,
@@ -8602,7 +8595,7 @@
         {
           "Category": "Data",
           "PropertyName": "Text",
-          "RuleProviderType": "Unknown"
+          "RuleProviderType": "User"
         },
         {
           "Category": "Data",
