@@ -184,8 +184,9 @@ NewRequestScreen As screen:
         ZIndex: =40
 
         Rectangle1_1 As rectangle:
+            BorderColor: =RGBA(99, 139, 44, 1)
             DisabledFill: =Rectangle1_1.Fill
-            Fill: =RGBA(0, 71, 144, 1)
+            Fill: =RGBA(127, 178, 57, 1)
             FocusedBorderColor: =Rectangle1_1.BorderColor
             Height: =80
             HoverFill: =Rectangle1_1.Fill
@@ -683,6 +684,14 @@ NewRequestScreen As screen:
             X: =454
             Y: =503
             ZIndex: =24
+
+    Image6 As image:
+        Height: =73
+        Image: ='N-BASE-corporate-logo_2'
+        Width: =140
+        X: =13
+        Y: =3
+        ZIndex: =47
 
     GroupLeaveType As group:
         Height: =5
