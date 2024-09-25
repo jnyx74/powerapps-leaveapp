@@ -417,7 +417,7 @@ HomeScreen As screen:
         ZIndex: =36
 
         LblRequestDetailsHeader As label:
-            Color: =RGBA(0, 71, 144, 1)
+            Color: =RGBA(81, 122, 23, 1)
             FocusedBorderColor: =LblRequestDetailsHeader.BorderColor
             Font: =Font.Lato
             FontWeight: =FontWeight.Bold
