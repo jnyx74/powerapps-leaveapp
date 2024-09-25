@@ -688,6 +688,14 @@ NewRequestScreen As screen:
             Y: =503
             ZIndex: =24
 
+    Image6 As image:
+        Height: =73
+        Image: ='N-BASE-corporate-logo_2'
+        Width: =140
+        X: =13
+        Y: =3
+        ZIndex: =47
+
     GroupLeaveType As group:
         Height: =5
         Width: =5
@@ -841,12 +849,4 @@ NewRequestScreen As screen:
             X: =260
             Y: =278
             ZIndex: =46
-
-    Image6 As image:
-        Height: =73
-        Image: ='N-BASE-corporate-logo_2'
-        Width: =140
-        X: =13
-        Y: =3
-        ZIndex: =47
 
