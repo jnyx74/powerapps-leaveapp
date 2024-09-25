@@ -171,7 +171,8 @@ NewRequestScreen As screen:
         PressedBorderColor: =Label8.BorderColor
         PressedColor: =Label8.Color
         PressedFill: =Label8.Fill
-        Text: =If(_editingRequest, "Edit", "New") & " request"
+        Size: =20
+        Text: ="NEW  REQUEST"
         Width: =243
         X: =Parent.Width / 2 - Label8.Width/2
         ZIndex: =36
@@ -738,7 +739,7 @@ NewRequestScreen As screen:
                 ZIndex: =1
 
             NRLeaveTypeButton As button:
-                BorderColor: =RGBA(10, 106, 204, 1)
+                BorderColor: =RGBA(99, 139, 44, 1)
                 Color: =RGBA(255, 255, 255, 1)
                 DisabledBorderColor: =ColorFade(NRLeaveTypeButton.BorderColor, 70%)
                 Fill: =If(And(Not(IsBlank(_selectedLeaveType)),ThisItem.type = _selectedLeaveType), RGBA(0, 71, 144, 1), Color.White)
