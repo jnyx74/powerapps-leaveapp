@@ -171,7 +171,8 @@ NewRequestScreen As screen:
         PressedBorderColor: =Label8.BorderColor
         PressedColor: =Label8.Color
         PressedFill: =Label8.Fill
-        Text: =If(_editingRequest, "Edit", "New") & " request"
+        Size: =20
+        Text: ="NEW  REQUEST"
         Width: =243
         X: =Parent.Width / 2 - Label8.Width/2
         ZIndex: =36
@@ -184,31 +185,15 @@ NewRequestScreen As screen:
         ZIndex: =40
 
         Rectangle1_1 As rectangle:
+            BorderColor: =RGBA(99, 139, 44, 1)
             DisabledFill: =Rectangle1_1.Fill
-            Fill: =RGBA(0, 71, 144, 1)
+            Fill: =RGBA(127, 178, 57, 1)
             FocusedBorderColor: =Rectangle1_1.BorderColor
             Height: =80
             HoverFill: =Rectangle1_1.Fill
             PressedFill: =Rectangle1_1.Fill
             Width: =1366
             ZIndex: =27
-
-        LblHeaderTItle1_1 As label:
-            Color: =RGBA(255, 255, 255, 1)
-            FocusedBorderColor: =LblHeaderTItle1_1.BorderColor
-            Font: =Font.Lato
-            Height: =80
-            HoverBorderColor: =LblHeaderTItle1_1.BorderColor
-            HoverColor: =LblHeaderTItle1_1.Color
-            HoverFill: =LblHeaderTItle1_1.Fill
-            PressedBorderColor: =LblHeaderTItle1_1.BorderColor
-            PressedColor: =LblHeaderTItle1_1.Color
-            PressedFill: =LblHeaderTItle1_1.Fill
-            Size: =18
-            Text: =Upper("Request")
-            Width: =117
-            X: =30
-            ZIndex: =28
 
         LblHeaderTitle2_1 As label:
             Color: =RGBA(255, 255, 255, 1)
@@ -221,26 +206,10 @@ NewRequestScreen As screen:
             PressedColor: =LblHeaderTitle2_1.Color
             PressedFill: =LblHeaderTitle2_1.Fill
             Size: =18
-            Text: =Upper("Leave")
-            Width: =138
+            Text: ="LEAVE REQUEST FORM"
+            Width: =276
             X: =178
             ZIndex: =29
-
-        icon2_1 As icon.ArrowRight:
-            Color: =Color.White
-            DisabledFill: =icon2_1.Fill
-            FocusedBorderColor: =icon2_1.BorderColor
-            HoverBorderColor: =ColorFade(icon2_1.BorderColor, 20%)
-            HoverColor: =ColorFade(icon2_1.Color, 20%)
-            HoverFill: =icon2_1.Fill
-            Icon: =Icon.ArrowRight
-            PressedBorderColor: =ColorFade(icon2_1.BorderColor, -20%)
-            PressedColor: =ColorFade(icon2_1.Color, -20%)
-            PressedFill: =icon2_1.Fill
-            Width: =32
-            X: =143
-            Y: =9
-            ZIndex: =30
 
         CircleHeaderCreateNew_6 As circle:
             DisabledFill: =CircleHeaderCreateNew_6.Fill
@@ -762,7 +731,7 @@ NewRequestScreen As screen:
                 ZIndex: =1
 
             NRLeaveTypeButton As button:
-                BorderColor: =RGBA(10, 106, 204, 1)
+                BorderColor: =RGBA(99, 139, 44, 1)
                 Color: =RGBA(255, 255, 255, 1)
                 DisabledBorderColor: =ColorFade(NRLeaveTypeButton.BorderColor, 70%)
                 Fill: =If(And(Not(IsBlank(_selectedLeaveType)),ThisItem.type = _selectedLeaveType), RGBA(0, 71, 144, 1), Color.White)
@@ -870,4 +839,12 @@ NewRequestScreen As screen:
             X: =260
             Y: =278
             ZIndex: =46
+
+    Image6 As image:
+        Height: =73
+        Image: ='N-BASE-corporate-logo_2'
+        Width: =140
+        X: =13
+        Y: =3
+        ZIndex: =47
 
