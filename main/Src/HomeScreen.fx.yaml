@@ -24,14 +24,14 @@ HomeScreen As screen:
     GalleryNavigation As gallery.galleryVertical:
         '#CopilotOverlayLabel': ="Filtered"
         AccessibleLabel: ="Select a gallery item to navigate to it's respective page"
+        BorderColor: =RGBA(99, 139, 44, 1)
         DisabledBorderColor: =GalleryNavigation.BorderColor
         DisabledFill: =GalleryNavigation.Fill
         Fill: =RGBA(249, 249, 249, 1)
         Height: =688
         HoverBorderColor: =GalleryNavigation.BorderColor
         HoverFill: =GalleryNavigation.Fill
-        Items: |
-            =If(_managerView, ManagerNavigation, EmployeeNavigation)
+        Items: =If(_managerView,ManagerNavigation,EmployeeNavigation)
         Layout: =Layout.Vertical
         LoadingSpinnerColor: =GalleryNavigation.BorderColor
         OnSelect: |-

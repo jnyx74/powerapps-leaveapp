@@ -138,7 +138,7 @@ NewRequestScreen As screen:
 
         Label2_1 As label:
             Align: =TextPosition.Left
-            Color: =If(ThisItem.MenuItem = _navMenuSelect, RGBA(47,41,43,1), RGBA(10,100,204,1))
+            Color: =If(ThisItem.MenuItem = _navMenuSelect, RGBA(47,41,43,1), RGBA(99,139,44,1))
             FocusedBorderColor: =Label2_1.BorderColor
             FocusedBorderThickness: =2
             Font: =Font.Lato
