@@ -803,8 +803,8 @@ HomeScreen As screen:
         TemplatePadding: =0
         TemplateSize: =140
         Width: =564
-        X: =298
-        Y: =243
+        X: =337
+        Y: =98
         ZIndex: =42
 
         FilterButton As button:
