@@ -96,7 +96,7 @@
       "zeroalltabindexes": false
     },
     "Author": "",
-    "BindingErrorCount": 3,
+    "BindingErrorCount": 24,
     "ContainsThirdPartyPcfControls": false,
     "DefaultConnectedDataSourceMaxGetRowsCount": 500,
     "DocumentAppType": "DesktopOrTablet",
@@ -115,7 +115,7 @@
     "ManualOfflineProfileId": "",
     "Name": "Leave%2BRequest_0336.msapp",
     "OriginatingVersion": "1.235",
-    "ParserErrorCount": 0,
+    "ParserErrorCount": 10,
     "ShowStatusBar": false
   },
   "PublishInfo": {
