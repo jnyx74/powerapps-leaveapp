@@ -24,14 +24,14 @@ HomeScreen As screen:
     GalleryNavigation As gallery.galleryVertical:
         '#CopilotOverlayLabel': ="Filtered"
         AccessibleLabel: ="Select a gallery item to navigate to it's respective page"
+        BorderColor: =RGBA(99, 139, 44, 1)
         DisabledBorderColor: =GalleryNavigation.BorderColor
         DisabledFill: =GalleryNavigation.Fill
         Fill: =RGBA(249, 249, 249, 1)
         Height: =688
         HoverBorderColor: =GalleryNavigation.BorderColor
         HoverFill: =GalleryNavigation.Fill
-        Items: |
-            =If(_managerView, ManagerNavigation, EmployeeNavigation)
+        Items: =If(_managerView,ManagerNavigation,EmployeeNavigation)
         Layout: =Layout.Vertical
         LoadingSpinnerColor: =GalleryNavigation.BorderColor
         OnSelect: |-
@@ -417,7 +417,7 @@ HomeScreen As screen:
         ZIndex: =36
 
         LblRequestDetailsHeader As label:
-            Color: =RGBA(0, 71, 144, 1)
+            Color: =RGBA(81, 122, 23, 1)
             FocusedBorderColor: =LblRequestDetailsHeader.BorderColor
             Font: =Font.Lato
             FontWeight: =FontWeight.Bold
@@ -809,8 +809,8 @@ HomeScreen As screen:
         ZIndex: =42
 
         FilterButton As button:
-            BorderColor: =RGBA(10, 106, 204, 1)
-            Color: =If(_requestTypeFilter=ThisItem.Filter,RGBA(255, 255, 255, 1),RGBA(10, 106, 204, 1))
+            BorderColor: =RGBA(99, 139, 44, 1)
+            Color: =If(_requestTypeFilter=ThisItem.Filter,RGBA(255, 255, 255, 1),RGBA(99, 139, 44, 1))
             DisabledBorderColor: =ColorFade(FilterButton.BorderColor, 70%)
             Fill: =If(_requestTypeFilter=ThisItem.Filter,RGBA(0, 71, 144, 1),RGBA(255, 255, 255, 1))
             FocusedBorderColor: =FilterButton.BorderColor

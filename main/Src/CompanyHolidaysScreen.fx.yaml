@@ -6,7 +6,7 @@ CompanyHolidaysScreen As screen:
     Size: =1 + CountRows(App.SizeBreakpoints) - CountIf(App.SizeBreakpoints, Value >= CompanyHolidaysScreen.Width)
     Width: =Max(App.Width, App.DesignWidth)
 
-    "GalleryHolidays As gallery.'BrowseLayout_Vertical_OneTextVariant_ver5.0'":
+    GalleryHolidays As gallery.galleryVertical:
         '#CopilotOverlayLabel': ="Filtered"
         AccessibleLabel: ="Company holidays"
         DelayItemLoading: =true

@@ -13,8 +13,7 @@
     },
     "datasets": {},
     "dataSources": [
-      "Office365",
-      "Office365Outlook"
+      "Office365"
     ],
     "dependencies": {},
     "dependents": [],

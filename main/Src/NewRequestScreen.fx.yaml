@@ -138,7 +138,7 @@ NewRequestScreen As screen:
 
         Label2_1 As label:
             Align: =TextPosition.Left
-            Color: =If(ThisItem.MenuItem = _navMenuSelect, RGBA(47,41,43,1), RGBA(10,100,204,1))
+            Color: =If(ThisItem.MenuItem = _navMenuSelect, RGBA(47,41,43,1), RGBA(99,139,44,1))
             FocusedBorderColor: =Label2_1.BorderColor
             FocusedBorderThickness: =2
             Font: =Font.Lato
@@ -337,12 +337,14 @@ NewRequestScreen As screen:
 
         LeaveStartDatePicker As datepicker:
             AccessibleLabel: ="Leave start date. Required field."
-            BorderColor: =If(And(!_editingRequest, LeaveStartDatePicker.SelectedDate < Today()) || LeaveStartDatePicker.SelectedDate > LeaveEndDatePicker.SelectedDate, Color.Red, RGBA(0, 71, 144, 1))
+            BorderColor: =If(And(!_editingRequest, LeaveStartDatePicker.SelectedDate < Today()) || LeaveStartDatePicker.SelectedDate > LeaveEndDatePicker.SelectedDate, Color.Red, RGBA(99, 139, 44, 1))
+            Color: =RGBA(0, 0, 0, 1)
             DefaultDate: =_leaveStart
+            Fill: =RGBA(0, 0, 0, 0)
             FocusedBorderColor: =LeaveStartDatePicker.BorderColor
             HoverBorderColor: =LeaveStartDatePicker.BorderColor
             HoverFill: =LeaveStartDatePicker.Fill
-            IconBackground: =RGBA(0, 71, 144, 1)
+            IconBackground: =RGBA(99, 139, 44, 1)
             InputTextPlaceholder: =Text(Date(2001,12,31), LeaveStartDatePicker.Format, LeaveStartDatePicker.Language)
             OnChange: =Select(LeaveStartDatePicker)
             OnSelect: |-
@@ -386,12 +388,12 @@ NewRequestScreen As screen:
 
         LeaveEndDatePicker As datepicker:
             AccessibleLabel: ="Leave end date. Required field."
-            BorderColor: =If(LeaveStartDatePicker.SelectedDate > LeaveEndDatePicker.SelectedDate, Color.Red, RGBA(0, 71, 144, 1))
+            BorderColor: =If(LeaveStartDatePicker.SelectedDate > LeaveEndDatePicker.SelectedDate, Color.Red, RGBA(99, 139, 44, 1))
             DefaultDate: =_leaveEnd
             FocusedBorderColor: =LeaveEndDatePicker.BorderColor
             HoverBorderColor: =LeaveEndDatePicker.BorderColor
             HoverFill: =LeaveEndDatePicker.Fill
-            IconBackground: =RGBA(0, 71, 144, 1)
+            IconBackground: =RGBA(99, 139, 44, 1)
             InputTextPlaceholder: =Text(Date(2001,12,31), LeaveEndDatePicker.Format, LeaveEndDatePicker.Language)
             OnChange: =Select(LeaveStartDatePicker)
             OnSelect: =Select(LeaveStartDatePicker)
@@ -585,7 +587,7 @@ NewRequestScreen As screen:
 
         TextInput1 As text:
             AccessibleLabel: ="Leave title. Required field."
-            BorderColor: =RGBA(0, 71, 144, 1)
+            BorderColor: =RGBA(99, 139, 44, 1)
             Default: =_leaveTitle
             FocusedBorderColor: =TextInput1.BorderColor
             Font: =Font.Lato
@@ -600,7 +602,7 @@ NewRequestScreen As screen:
 
         TextInput1_1 As text:
             AccessibleLabel: ="Leave detail"
-            BorderColor: =RGBA(0, 71, 144, 1)
+            BorderColor: =RGBA(99, 139, 44, 1)
             Default: =_leaveDetail
             FocusedBorderColor: =TextInput1_1.BorderColor
             Font: =Font.Lato
@@ -666,7 +668,7 @@ NewRequestScreen As screen:
         Button3 As button:
             BorderColor: =ColorFade(Button3.Fill, -15%)
             BorderThickness: =0
-            Color: =RGBA(10, 106, 204, 1)
+            Color: =RGBA(99, 139, 44, 1)
             DisabledBorderColor: =ColorFade(Button3.BorderColor, 70%)
             Fill: =Parent.Fill
             FocusedBorderColor: =Button3.BorderColor
@@ -685,14 +687,6 @@ NewRequestScreen As screen:
             X: =454
             Y: =503
             ZIndex: =24
-
-    Image6 As image:
-        Height: =73
-        Image: ='N-BASE-corporate-logo_2'
-        Width: =140
-        X: =13
-        Y: =3
-        ZIndex: =47
 
     GroupLeaveType As group:
         Height: =5
@@ -742,7 +736,7 @@ NewRequestScreen As screen:
                 BorderColor: =RGBA(99, 139, 44, 1)
                 Color: =RGBA(255, 255, 255, 1)
                 DisabledBorderColor: =ColorFade(NRLeaveTypeButton.BorderColor, 70%)
-                Fill: =If(And(Not(IsBlank(_selectedLeaveType)),ThisItem.type = _selectedLeaveType), RGBA(0, 71, 144, 1), Color.White)
+                Fill: =If(And(Not(IsBlank(_selectedLeaveType)),ThisItem.type = _selectedLeaveType), RGBA(99, 139, 44, 1), Color.White)
                 FocusedBorderColor: =NRLeaveTypeButton.BorderColor
                 FocusedBorderThickness: =0
                 Font: =Font.Lato
@@ -768,7 +762,7 @@ NewRequestScreen As screen:
                 ZIndex: =2
 
             NRLeaveTypeLabel As label:
-                Color: =If(And(Not(IsBlank(_selectedLeaveType)),ThisItem.type = _selectedLeaveType), Color.White, RGBA(10, 106, 204, 1))
+                Color: =If(And(Not(IsBlank(_selectedLeaveType)),ThisItem.type = _selectedLeaveType), Color.White, RGBA(99, 139, 44, 1))
                 FocusedBorderColor: =NRLeaveTypeLabel.BorderColor
                 Font: =Font.Lato
                 FontWeight: =FontWeight.Bold
@@ -847,4 +841,12 @@ NewRequestScreen As screen:
             X: =260
             Y: =278
             ZIndex: =46
+
+    Image6 As image:
+        Height: =73
+        Image: ='N-BASE-corporate-logo_2'
+        Width: =140
+        X: =13
+        Y: =3
+        ZIndex: =47
 
