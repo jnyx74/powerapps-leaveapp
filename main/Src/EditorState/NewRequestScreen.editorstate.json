@@ -379,7 +379,7 @@
         {
           "AFDDataSourceName": "",
           "AutoRuleBindingEnabled": false,
-          "AutoRuleBindingString": "RGBA(255,255,255,1)",
+          "AutoRuleBindingString": "",
           "InvariantPropertyName": "Color",
           "IsLockable": false,
           "NameMapSourceSchema": "?"
@@ -6762,7 +6762,7 @@
         {
           "Category": "Design",
           "PropertyName": "IconBackground",
-          "RuleProviderType": "Unknown"
+          "RuleProviderType": "User"
         },
         {
           "Category": "Design",
@@ -7108,7 +7108,7 @@
         {
           "Category": "Design",
           "PropertyName": "IconBackground",
-          "RuleProviderType": "Unknown"
+          "RuleProviderType": "User"
         },
         {
           "Category": "Design",
@@ -9370,7 +9370,7 @@
         {
           "AFDDataSourceName": "",
           "AutoRuleBindingEnabled": false,
-          "AutoRuleBindingString": "RGBA(101, 128, 187, 1)",
+          "AutoRuleBindingString": "",
           "InvariantPropertyName": "BorderColor",
           "IsLockable": false,
           "NameMapSourceSchema": "?"
@@ -9659,7 +9659,7 @@
         {
           "AFDDataSourceName": "",
           "AutoRuleBindingEnabled": false,
-          "AutoRuleBindingString": "RGBA(101, 128, 187, 1)",
+          "AutoRuleBindingString": "",
           "InvariantPropertyName": "BorderColor",
           "IsLockable": false,
           "NameMapSourceSchema": "?"

@@ -344,7 +344,7 @@ NewRequestScreen As screen:
             FocusedBorderColor: =LeaveStartDatePicker.BorderColor
             HoverBorderColor: =LeaveStartDatePicker.BorderColor
             HoverFill: =LeaveStartDatePicker.Fill
-            IconBackground: =RGBA(0, 71, 144, 1)
+            IconBackground: =RGBA(99, 139, 44, 1)
             InputTextPlaceholder: =Text(Date(2001,12,31), LeaveStartDatePicker.Format, LeaveStartDatePicker.Language)
             OnChange: =Select(LeaveStartDatePicker)
             OnSelect: |-
@@ -393,7 +393,7 @@ NewRequestScreen As screen:
             FocusedBorderColor: =LeaveEndDatePicker.BorderColor
             HoverBorderColor: =LeaveEndDatePicker.BorderColor
             HoverFill: =LeaveEndDatePicker.Fill
-            IconBackground: =RGBA(0, 71, 144, 1)
+            IconBackground: =RGBA(99, 139, 44, 1)
             InputTextPlaceholder: =Text(Date(2001,12,31), LeaveEndDatePicker.Format, LeaveEndDatePicker.Language)
             OnChange: =Select(LeaveStartDatePicker)
             OnSelect: =Select(LeaveStartDatePicker)
@@ -587,7 +587,7 @@ NewRequestScreen As screen:
 
         TextInput1 As text:
             AccessibleLabel: ="Leave title. Required field."
-            BorderColor: =RGBA(0, 71, 144, 1)
+            BorderColor: =RGBA(99, 139, 44, 1)
             Default: =_leaveTitle
             FocusedBorderColor: =TextInput1.BorderColor
             Font: =Font.Lato
@@ -602,7 +602,7 @@ NewRequestScreen As screen:
 
         TextInput1_1 As text:
             AccessibleLabel: ="Leave detail"
-            BorderColor: =RGBA(0, 71, 144, 1)
+            BorderColor: =RGBA(99, 139, 44, 1)
             Default: =_leaveDetail
             FocusedBorderColor: =TextInput1_1.BorderColor
             Font: =Font.Lato
@@ -668,7 +668,7 @@ NewRequestScreen As screen:
         Button3 As button:
             BorderColor: =ColorFade(Button3.Fill, -15%)
             BorderThickness: =0
-            Color: =RGBA(10, 106, 204, 1)
+            Color: =RGBA(99, 139, 44, 1)
             DisabledBorderColor: =ColorFade(Button3.BorderColor, 70%)
             Fill: =Parent.Fill
             FocusedBorderColor: =Button3.BorderColor
