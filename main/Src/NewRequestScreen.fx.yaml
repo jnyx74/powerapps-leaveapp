@@ -742,7 +742,7 @@ NewRequestScreen As screen:
                 BorderColor: =RGBA(99, 139, 44, 1)
                 Color: =RGBA(255, 255, 255, 1)
                 DisabledBorderColor: =ColorFade(NRLeaveTypeButton.BorderColor, 70%)
-                Fill: =If(And(Not(IsBlank(_selectedLeaveType)),ThisItem.type = _selectedLeaveType), RGBA(0, 71, 144, 1), Color.White)
+                Fill: =If(And(Not(IsBlank(_selectedLeaveType)),ThisItem.type = _selectedLeaveType), RGBA(99, 139, 44, 1), Color.White)
                 FocusedBorderColor: =NRLeaveTypeButton.BorderColor
                 FocusedBorderThickness: =0
                 Font: =Font.Lato
