@@ -270,7 +270,7 @@
   },
   "FunctionParamsInvariantScripts": {},
   "FunctionParamsInvariantScriptsOnInstances": {},
-  "HeaderLastSavedDateTimeUTC": "09/25/2024 06:42:43",
+  "HeaderLastSavedDateTimeUTC": "09/25/2024 06:48:15",
   "IsLegacyComponentAllowGlobalScopeCase": false,
   "LocalConnectionIDReferences": {
     "12f73af9-777f-4fd4-a512-da2f66fd7501": "\"/providers/microsoft.powerapps/apis/shared_office365/connections/9f96f7eac60a451d8a57ddd23bf3b05e\"",
@@ -319,21 +319,21 @@
   "OrderComponentMetadata": {},
   "OrderComponentTemplate": {},
   "OrderDataSource": {
-    "BalanceCollection": 5,
+    "BalanceCollection": 8,
     "ComboBoxSample": 2,
     "CustomGallerySample": 3,
-    "EmailTemplate": 6,
-    "EmployeeNavigation": 7,
-    "HolidaysCollection": 8,
+    "EmailTemplate": 11,
+    "EmployeeNavigation": 14,
+    "HolidaysCollection": 10,
     "LeaveCollection": 9,
-    "LeaveTypeCollection": 10,
+    "LeaveTypeCollection": 12,
     "ListboxSample": 4,
-    "ManagerNavigation": 11,
+    "ManagerNavigation": 13,
     "Office365": 0,
     "Office365Users": 1,
-    "RequesterBalanceCollection": 12,
-    "RequestOverlaps": 13,
-    "TemplateData": 14
+    "RequesterBalanceCollection": 7,
+    "RequestOverlaps": 6,
+    "TemplateData": 5
   },
   "OrderGroupControls": {
     "AboutLeaveMiddle": {

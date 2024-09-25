@@ -768,7 +768,7 @@ NewRequestScreen As screen:
                 ZIndex: =2
 
             NRLeaveTypeLabel As label:
-                Color: =If(And(Not(IsBlank(_selectedLeaveType)),ThisItem.type = _selectedLeaveType), Color.White, RGBA(10, 106, 204, 1))
+                Color: =If(And(Not(IsBlank(_selectedLeaveType)),ThisItem.type = _selectedLeaveType), Color.White, RGBA(99, 139, 44, 1))
                 FocusedBorderColor: =NRLeaveTypeLabel.BorderColor
                 Font: =Font.Lato
                 FontWeight: =FontWeight.Bold
