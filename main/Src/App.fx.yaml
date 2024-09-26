@@ -110,11 +110,11 @@ App As appinfo:
                     BereavementUsed:0, 
                     BalanceID:_myProfile.UserPrincipalName&Text(Now(), "[$-en-US]mm-dd-yyyy-hh-mm-ss-fff")
                 }
-        )
+        );
         
         ClearCollect(colCalendars, 
                      Office365Outlook.CalendarGetTablesV2()
-        )
+        );
     Theme: =PowerAppsTheme
 
     Host As hostControl.DefaultHostControlVariant:
