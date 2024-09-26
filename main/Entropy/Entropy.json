@@ -271,7 +271,7 @@
   },
   "FunctionParamsInvariantScripts": {},
   "FunctionParamsInvariantScriptsOnInstances": {},
-  "HeaderLastSavedDateTimeUTC": "09/26/2024 01:21:08",
+  "HeaderLastSavedDateTimeUTC": "09/26/2024 01:23:28",
   "IsLegacyComponentAllowGlobalScopeCase": false,
   "LocalConnectionIDReferences": {
     "12f73af9-777f-4fd4-a512-da2f66fd7501": "\"/providers/microsoft.powerapps/apis/shared_office365/connections/shared-office365-c2f7e51d-418c-4f02-8611-023d7f485e58\"",
@@ -320,23 +320,22 @@
   "OrderComponentMetadata": {},
   "OrderComponentTemplate": {},
   "OrderDataSource": {
-    "BalanceCollection": 11,
-    "colCalendars": 16,
+    "colCalendars": 15,
     "ComboBoxSample": 3,
     "CustomGallerySample": 4,
-    "EmailTemplate": 7,
-    "EmployeeNavigation": 10,
-    "HolidaysCollection": 6,
-    "LeaveCollection": 12,
-    "LeaveTypeCollection": 8,
+    "EmailTemplate": 6,
+    "EmployeeNavigation": 11,
+    "HolidaysCollection": 8,
+    "LeaveCollection": 7,
+    "LeaveTypeCollection": 9,
     "ListboxSample": 5,
-    "ManagerNavigation": 9,
+    "ManagerNavigation": 10,
     "Office365": 0,
     "Office365Outlook": 1,
     "Office365Users": 2,
-    "RequesterBalanceCollection": 13,
-    "RequestOverlaps": 14,
-    "TemplateData": 15
+    "RequesterBalanceCollection": 12,
+    "RequestOverlaps": 13,
+    "TemplateData": 14
   },
   "OrderGroupControls": {
     "AboutLeaveMiddle": {
