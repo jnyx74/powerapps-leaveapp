@@ -23,7 +23,7 @@ App As appinfo:
         
             //add custom leave types to this collection to make them show up in the app
             ClearCollect(
-            LeaveTypeCollection, 
+            LeaveTypeCollection,
                 Table(
                         {
                             type:"Annual leave", 
@@ -81,11 +81,8 @@ App As appinfo:
                 </html>"
             ),
             ClearCollect(HolidaysCollection, 
-             {HolidayName: "Thanksgiving", StartDate: DateValue("11/22/2018")}, 
-             {HolidayName: "Day after Thanksgiving", StartDate: DateValue("11/23/2018")}, 
-             {HolidayName: "Christmas", StartDate: DateValue("12/25/2018")}, 
-             {HolidayName: "DayAfterChristmas", StartDate: DateValue("12/26/2018")}, 
-             {HolidayName: "New Year's Day", StartDate: DateValue("1/1/2019")})
+             LookUp(Office365Outlook.CalendarGetTablesV2().value, 
+                   name="Malaysia holidays").id)
         );
         
         
