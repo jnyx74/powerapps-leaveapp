@@ -692,8 +692,6 @@ NewRequestScreen As screen:
         Height: =73
         Image: ='N-BASE-corporate-logo_2'
         Width: =140
-        X: =13
-        Y: =3
         ZIndex: =47
 
     GroupLeaveType As group:
